@@ -1,12 +1,12 @@
 # ⭐ Star Wars Game
 
-A Star Wars–themed space shooter game built as a Romanian *atestat* (graduation certification) project for 2025. The game is a Windows desktop application developed in **C# / .NET Framework 4.7.2** using **Windows Forms**, featuring animated sprites, enemy AI, projectile combat, a solar system simulation screen, and background music.
+A Star Wars–themed space shooter game built as a Romanian **graduation certification project** (*atestat* — a mandatory final project presented at the end of high school in Romania) for 2025. The game is a Windows desktop application developed in **C# / .NET Framework 4.7.2** using **Windows Forms**, featuring animated sprites, enemy AI, projectile combat, a solar system simulation screen, and background music.
 
 ---
 
 ## 🎮 Gameplay Overview
 
-The player controls a spaceship (*navă*) and must navigate through space, shooting enemies and avoiding asteroids. The game features multiple forms (screens):
+The player controls a spaceship and must navigate through space, shooting enemies and avoiding asteroids. The game features multiple forms (screens):
 
 - **Form1** — Main game screen with the space shooter mechanics
 - **Form2** — Secondary screen (menu / info / solar system view)
@@ -102,7 +102,7 @@ Star-Wars-game/
 
 ## 🗄️ Database
 
-The project uses a SQL Server `.mdf` database file (`StarWars.mdf`) to store game data (e.g., scores). It is configured to copy to the output directory automatically on build. LocalDB must be available on the machine for database functionality to work.
+The project uses a SQL Server `.mdf` database file (`StarWars.mdf`) to store game data (e.g., scores). It is configured to copy to the output directory automatically on build. SQL Server LocalDB must be available on the machine for database functionality to work.
 
 ---
 
@@ -112,16 +112,16 @@ The game includes a rich set of visual and audio assets:
 
 - **Player sprites:** multiple states — idle (`navaStop`), moving (`navaMove`/`navaUp`/`navaDown`), firing (`navaFire`)
 - **Enemy sprites:** animated GIF enemy (`inamic.gif`) and enemy spaceship (`almir-sharifullin-1st-spaceship.gif`)
-- **Environment:** space background, Sun (*Soare*), Earth (*Pamant*), Moon (*luna*), asteroids
+- **Environment:** space background, Sun (`Soarewatermarked.png`), Earth (`Pamant.png`), Moon (`luna.png`), asteroids
 - **Characters:** Luke Skywalker, Darth Sidious / Emperor Palpatine, Star Destroyer imagery
 - **Audio:** Star Wars theme music played via Windows Media Player
-- **UI buttons:** Start, Pause (*Pauza*), Stop, Restart icons
+- **UI buttons:** Start, Pause (`Pauza.png`), Stop, Restart icons
 
 ---
 
 ## 👤 Author
 
-Developed by **[@iuliaaacarp](https://github.com/iuliaaacarp)** as a 2025 Romanian high-school *atestat* project.
+Developed by **[@iuliaaacarp](https://github.com/iuliaaacarp)** as a 2025 Romanian high-school graduation certification project.
 
 ---
 
